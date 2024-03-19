@@ -20,7 +20,7 @@ Internet sales reports improvement, from static reports to visual dashbords. Thi
         Budget Amount = SUM (FACT_Budget[Budget]);
         Sales - Budget = [Sales]-[Budget Amount];
         Sales / Budget Amount = DIVIDE( [Sales], [Budget Amount]);
-- Step 7 : Created Dashboard design for first page "Sales Overview".
+- Step 7 : Created a Dashboard design for the first page "Sales Overview".
 - Step 8 : Visual filters (Slicers) were added for four fields named: 
 
 Customer City,
@@ -58,22 +58,36 @@ also created two filter (slicers) for year and month.
 - Step 10 : Created new field parameter "Comparisons" for KPI color measure.
 
 ![KPI Dynamic Card](https://github.com/Tsukhishvili-Giorgi/DataAnalystProjectFromScratch_SQL_PBI_SalesAnalysis/assets/117026869/be6e7c0b-6298-4fef-982d-4e8bfac4e078)
+
 - Step 11 : Create Key meausre table for all measurement;
 - Step 12 : A donut chart is used to show sales by product type. While creating this visual, a Column named "Product category" was also added to the Legends field, and Sales measure was added to the Value field.
+
 ![Sales_By_ProductCategory](https://github.com/Tsukhishvili-Giorgi/DataAnalystProjectFromScratch_SQL_PBI_SalesAnalysis/assets/117026869/807a70f3-8319-417f-a4ba-01a9c2c471ed)
+
 - Step 13 : A line chart used to show the monthly dynamics of sales and budget.
+
 ![Sales Budget_By_Month](https://github.com/Tsukhishvili-Giorgi/DataAnalystProjectFromScratch_SQL_PBI_SalesAnalysis/assets/117026869/47b461f0-3af4-45c9-b1ca-71aa724982de)
+
 - Step 14 : A Clustered bar chart used to show Sales by Top 10 customers and Sales by Pproduct.
+
 ![Sales_By_Top10_Customers ProductName](https://github.com/Tsukhishvili-Giorgi/DataAnalystProjectFromScratch_SQL_PBI_SalesAnalysis/assets/117026869/c8edf3cb-2ce2-478e-a27b-9c40dfbe9a0d)
+
 - Step 15 : A Map used to show Sales by customer city.
+
 ![Sales_By_CustomerCity](https://github.com/Tsukhishvili-Giorgi/DataAnalystProjectFromScratch_SQL_PBI_SalesAnalysis/assets/117026869/97d2c064-91fa-4f47-b33b-e1b86dbae36c)
-- Step 16 : Created Dashboard design for second page "Customer Details". Visual Filter (Slicers) are same like on the first page.
+
+- Step 16 : Created a Dashboard design for the second page "Customer Details". Visual Filter (Slicers) are the same as on the first page.
 - Step 17 : There were added two cards which show Budget and Sales.
+
 ![Sales Budget _Cards](https://github.com/Tsukhishvili-Giorgi/DataAnalystProjectFromScratch_SQL_PBI_SalesAnalysis/assets/117026869/996d0f88-2329-44fa-a582-ce9b11adcb40)
+
 - Step 18 : Created matrix whcih show customer person sales by month.
+
 ![Sales_Matrix](https://github.com/Tsukhishvili-Giorgi/DataAnalystProjectFromScratch_SQL_PBI_SalesAnalysis/assets/117026869/ace311cd-ce40-4cf3-8629-803703711653)
+
 - Step 19 : After this created Dashboard design for third page "Product Details".
 - Step 20 : On the Prduct Details page created matrix whcih show productname sales by month.
+
 ![Sales_Matrix_By_Product](https://github.com/Tsukhishvili-Giorgi/DataAnalystProjectFromScratch_SQL_PBI_SalesAnalysis/assets/117026869/b82ee30a-6b63-4d29-bed8-d6324b1ce858)
 
  # Report Snapshot (Power BI DESKTOP)
@@ -103,7 +117,7 @@ The following inferences can be drawn from the dashboard;
 
  - Clothing = 339424 (1.52 %)
 
-           Thus, higher number of product are Bikes.
+           Thus, the higher number of products are Bikes.
            
 ## [2] Sales VS Budget
 
@@ -124,7 +138,7 @@ Sales = 16 349 330
         Thus, in 2023, the company made a profit of 10549330 (181.9%) USD.
   
   
-  ### [3] Top 3 Product by Sales
+  ### [3] Top 3 Products by Sales
         
 - Mountain - 200 Black, 46 (1 371 405)
 
